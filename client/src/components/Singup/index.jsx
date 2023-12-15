@@ -21,7 +21,9 @@ const Signup = () => {
 		e.preventDefault();
 		try {
 			const url = "http://localhost:8080/api/users";
+			console.log("Before")
 			const { data: res } = await axios.post(url, data);
+			console.log("after")
 			navigate("/login");
 			console.log(res.message);
 		} catch (error) {
