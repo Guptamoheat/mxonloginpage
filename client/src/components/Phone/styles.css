@@ -1,0 +1,13 @@
+.phone-input {
+    width: 19rem;
+    height: 2rem;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+
+}
+
+.wrong-phone-number-message {
+    color: white;
+    font-size: 0.98rem;
+
+}
